@@ -21,5 +21,31 @@ public class Main {
                 System.out.println("Done");
             }
         }
+
+        // вывод
+        System.out.print("Hello ");
+        System.out.print("world!");
+        // Вывод: Hello world!
+
+        System.out.println("Hello");
+        System.out.println("World");
+        // Вывод:
+        // Hello
+        // World
+
+        int a = 5;
+        double b = 3.14159;
+
+        System.out.printf("a = %d, b = %.2f%n", a, b);
+        // a = 5, b = 3.14
+
+//        Форматные спецификаторы:
+//
+//          %d — целое
+//          %f — число с плавающей точкой (%.2f = 2 знака после запятой)
+//          %s — строка
+//          %n — перенос строки
+
+
     }
 }
