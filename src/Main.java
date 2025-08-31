@@ -46,6 +46,12 @@ public class Main {
 //          %s — строка
 //          %n — перенос строки
 
+        //Склеивание строк
+        String name = "Vlad";
+        int age = 20;
+
+        System.out.println("Меня зовут " + name + ", мне " + age + " лет.");
+
 
     }
 }
