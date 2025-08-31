@@ -46,6 +46,31 @@ public class Main {
 //          %s — строка
 //          %n — перенос строки
 
+        //Склеивание строк
+        String name = "Vlad";
+        int age = 20;
+
+        System.out.println("Меня зовут " + name + ", мне " + age + " лет.");
+
+
+
+        //ЦИКЛЫ:
+        for (int i = 0; i < 5; i++) {
+            System.out.println("i = " + i);
+        }
+
+        int i = 0;
+        while (i < 5) {
+            System.out.println(i);
+            i++;
+        }
+
+        int j = 0;
+        do {
+            System.out.println("Выполнится хотя бы раз. j = " + j);
+            j++;
+        } while (j < 0);
+
 
     }
 }
