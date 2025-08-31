@@ -71,6 +71,11 @@ public class Main {
             j++;
         } while (j < 0);
 
+        int[] arr = {10, 20, 30};
+        for (int num : arr) {
+            System.out.println(num);
+        }
+
 
     }
 }
