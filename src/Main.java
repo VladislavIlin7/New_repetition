@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Collections;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -46,6 +49,17 @@ public class Main {
 //          %s — строка
 //          %n — перенос строки
 
+
+        //Сортировки в Java
+        String[] names = {"Vlad", "Anna", "Petr"};
+        Arrays.sort(names);
+        System.out.println(Arrays.toString(names));
+        // [Anna, Petr, Vlad]
+
+        int[] nums = {5, 2, 8, 1, 3};
+        Arrays.sort(nums);
+        System.out.println(Arrays.toString(nums));
+    // [1, 2, 3, 5, 8]
 
     }
 }
